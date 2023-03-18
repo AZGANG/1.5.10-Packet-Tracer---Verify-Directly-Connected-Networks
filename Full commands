@@ -1,0 +1,24 @@
+Verify Directly Connected Networks
+you need to make sure you check all the devices  dont just skip some because you found the problem, 
+real life you will not have this. real-life is 10 times harder make sure you practice a lot on trouble shooting it will also help lots in the exams.
+
+show ip interface brief | exclude unassigned 
+show ip route | begin gate 
+show interface | include desc|conn
+show ipv6 int brief 
+show ip interface brief 
+found 2 problems g0/0/0 int is administrvly down down "active it" and s0/1/0 "has the wrong ip"
+show run | include ipv6|interface
+
+To fix 
+enable 
+config t
+int g0/0/0 
+no shutdown 
+
+int s0/1/0 
+ip address 209.165.200.225 255.255.255.252
+no shut 
+exit
+exit
+copy running-config startup-config 
