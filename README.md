@@ -12,3 +12,4 @@ Routers R1 and R2 each have two LANs. Your task is to verify the addressing on e
 
 Note: The user EXEC password is cisco. The privileged EXEC password is class.
 ![image](https://user-images.githubusercontent.com/128199477/226082300-62bbf87e-17d8-4c81-b308-4efa139ca536.png)
+![image](https://user-images.githubusercontent.com/128199477/226083452-790060e9-80de-47c9-ba83-795c82325229.png)
